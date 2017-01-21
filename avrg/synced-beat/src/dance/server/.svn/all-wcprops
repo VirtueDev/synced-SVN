@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/199/trunk/src/dance/server
+END
+ServerCodes.as
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/194/trunk/src/dance/server/ServerCodes.as
+END
+Server.as
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/199/trunk/src/dance/server/Server.as
+END
+RoomManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/194/trunk/src/dance/server/RoomManager.as
+END
+Dance.as
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/186/trunk/src/dance/server/Dance.as
+END
+Player.as
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/198/trunk/src/dance/server/Player.as
+END

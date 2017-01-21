@@ -1,0 +1,16 @@
+<!-- build configuration -->
+<project default="compile" basedir=".">
+
+  <!-- defines our project name -->
+  <property name="app.name" value="Rooster"/>
+  <property name="app.type" value="avatar"/>
+
+  <!-- if you wish to put your source in a subdirectory, uncomment this line -->
+  <!--<property name="app.source-dir" value="src"/>-->
+
+  <!-- if you wish to put your source in a package, uncomment this line -->
+  <!--<property name="app.package-dir" value="com.foo.bar"/>-->
+
+  <import file="../dance-project.xml"/>
+
+</project>

@@ -1,0 +1,66 @@
+::use 'design.mtt'::
+<h1>Song List</h1>
+
+<div>
+<form action="?">
+<input type="text" name="q" value="::if query != null::::query::::end::" /> <input type="submit" value="Search"/> <a ::cond query != null:: href="?">Show all</a>
+</form>
+</div>
+
+::if top != null::
+<div>
+<h2>Top uploaders this month</h2>
+<ol>
+<li ::repeat row top::>
+    <a href="http://whirled.com/#people-::row.uploaderId::" target="_blank">::row.uploaderName::</a> - <a href="?q=::row.uploaderName::">::row.count:: songs</a>
+</li>
+</ol>
+</div>
+::end::
+
+::if songs.length > 0::
+<div>
+    <table border="0" cellspacing="0">
+    <tr>
+    <th>#</th>
+    <th>Title</th>
+    <th>Artist</th>
+    <th>BPM</th>
+    <th>Uploader</th>
+    </tr>
+    <tr ::repeat song songs:: class="even_::repeat.song.even::">
+        <td class="id">::song.id::</td>
+        <td class="title"><a href="?do=detail&id=::song.id::">::song.title::</a></td>
+        <td class="artist">::song.artist::</td>
+        <td class="bpm">::song.bpm::</td>
+        <td class="uploaderName">
+        ::if song.uploaderId != 0::
+            <a href="http://whirled.com/#people-::song.uploaderId::" target="_blank">::song.uploaderName::</a>
+        ::else::
+            ::song.uploaderName::
+        ::end::
+        </td>
+    </tr>
+    </table>
+</div>
+
+    ::if query != null::
+        ::set q = "?q="+query+"&"::
+    ::else::
+        ::set q = "?"::
+    ::end::
+
+    <div style="text-align:center;font-size:large;"><b>Page: </b>
+        ::if page > 2::<a href="::q::p=0">1</a> ... ::end::
+        <a ::cond page > 1:: href="::q::p=::page-2::">::page-1::</a>
+        <a ::cond page > 0:: href="::q::p=::page-1::">::page::</a>
+        ::page+1::
+        <a ::cond page < lastPage:: href="::q::p=::page+1::">::page+2::</a>
+        <a ::cond page < lastPage-1:: href="::q::p=::page+2::">::page+3::</a>
+        ::if lastPage-page > 2:: ... <a href="::q::p=::lastPage::">::lastPage+1::</a>::end::
+    </div>
+::else::
+    <p>No matching songs found! Why not be the first to <a href="?do=creation">upload</a>?</p>
+::end::
+
+::end::

@@ -1,0 +1,35 @@
+::use 'design.mtt'::
+<h1>Song Detail</h1>
+<p>
+<table>
+<tr><th>Title</th><td>::song.title:: <a href="::whirledUrl::" target="_blank">(Buy)</a></td></tr>
+<tr><th>Artist</th><td>::song.artist::</td></tr>
+<tr><th>Preview</th><td>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
+  <param name="movie" value="niftyplayer.swf?file=songs/::song.id::.mp3"/>
+  <param name="quality" value="high"/>
+  <param name="bgcolor" value="#ffffff"/>
+  <embed src="niftyplayer.swf?file=songs/::song.id::.mp3" quality="high" bgcolor="#ffffff" width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object>
+</td></tr>
+<tr><th>BPM</th><td>::song.bpm::</td></tr>
+<tr><th>Charts</th><td>
+    <a rel="lightbox[charts]" href="songs/::song.id::_beginner.png" ::cond (song.difficulties & 1) != 0:: title="Beginner"><img src="icons/difficulty0.png"/></a>
+    <a rel="lightbox[charts]" href="songs/::song.id::_light.png" ::cond (song.difficulties & 2) != 0:: title="Light"><img src="icons/difficulty1.png"/></a>
+    <a rel="lightbox[charts]" href="songs/::song.id::_standard.png" ::cond (song.difficulties & 4) != 0:: title="Standard"><img src="icons/difficulty2.png"/></a>
+    <a rel="lightbox[charts]" href="songs/::song.id::_heavy.png" ::cond (song.difficulties & 8) != 0:: title="Heavy"><img src="icons/difficulty3.png"/></a>
+    <a rel="lightbox[charts]" href="songs/::song.id::_guru.png" ::cond (song.difficulties & 16) != 0:: title="GURU"><img src="icons/difficulty4.png"/></a>
+</td></tr>
+<tr ::cond song.uploaderName != null::><th>Uploader</th><td>
+    ::if song.uploaderId != 0::
+        <a href="http://whirled.com/#people-::song.uploaderId::" target="_blank">::song.uploaderName::</a>
+    ::else::
+        ::song.uploaderName::
+    ::end::
+</td></tr>
+</table>
+</p>
+<h2>Comments</h2>
+<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script><script type="text/javascript">FB.init("3b2eeb94700b358201530cbbed71e701");</script><fb:comments xid="song-::song.id::" title="::song.title:: - ::song.artist::"></fb:comments>
+
+::end::

@@ -1,0 +1,12 @@
+-cp src
+-main Index
+-php www
+-debug
+-lib templo
+-cmd ./temploc.sh
+
+#-cp src
+#-main Index
+#-neko www/index.n
+#-lib templo
+#-debug

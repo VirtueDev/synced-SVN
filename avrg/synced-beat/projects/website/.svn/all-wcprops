@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/201/trunk/projects/website
+END
+build.hxml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/190/trunk/projects/website/build.hxml
+END
+temploc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/197/trunk/projects/website/temploc.sh
+END
+mount-www.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/201/trunk/projects/website/mount-www.sh
+END
+schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/190/trunk/projects/website/schema.sql
+END

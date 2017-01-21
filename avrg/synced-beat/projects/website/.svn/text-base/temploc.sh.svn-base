@@ -1,0 +1,2 @@
+mkdir -p www/tpl
+cd tpl && temploc2 -output ../www/tpl -php *.mtt

@@ -1,0 +1,31 @@
+/** Styles used for the summary html text. */
+
+body {
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+a {
+    color: #00b4ff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 24pt;
+}
+
+.artist {
+    font-size: 12pt;
+}
+
+.header {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.name {
+    color: #3db8eb;
+    font-weight: bold;
+}

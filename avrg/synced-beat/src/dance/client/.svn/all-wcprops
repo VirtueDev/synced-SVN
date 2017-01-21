@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/199/trunk/src/dance/client
+END
+SummaryPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/199/trunk/src/dance/client/SummaryPanel.as
+END
+DanceController.as
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/199/trunk/src/dance/client/DanceController.as
+END
+HUD.as
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/164/trunk/src/dance/client/HUD.as
+END
+WaitingPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/176/trunk/src/dance/client/WaitingPanel.as
+END
+PlayingPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/182/trunk/src/dance/client/PlayingPanel.as
+END
+KeyboardControls.as
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/193/trunk/src/dance/client/KeyboardControls.as
+END
+ComboDisplay.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/143/trunk/src/dance/client/ComboDisplay.as
+END
+DanceModel.as
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/193/trunk/src/dance/client/DanceModel.as
+END
+SongFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/193/trunk/src/dance/client/SongFactory.as
+END
+PlayerMarker.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/143/trunk/src/dance/client/PlayerMarker.as
+END
+ScoreDisplay.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/143/trunk/src/dance/client/ScoreDisplay.as
+END
+Component.as
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/18/trunk/src/dance/client/Component.as
+END
+NoteTreadmill.as
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/175/trunk/src/dance/client/NoteTreadmill.as
+END
+DifficultySelector.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/171/trunk/src/dance/client/DifficultySelector.as
+END
+Messages.as
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/199/trunk/src/dance/client/Messages.as
+END
+Game.as
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/198/trunk/src/dance/client/Game.as
+END
+ModeSprite.as
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/src/dance/client/ModeSprite.as
+END
+OptionsPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/108/trunk/src/dance/client/OptionsPanel.as
+END
+FocusOverlay.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/175/trunk/src/dance/client/FocusOverlay.as
+END
+BasicMarker.as
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/143/trunk/src/dance/client/BasicMarker.as
+END
+Receptor.as
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/38/trunk/src/dance/client/Receptor.as
+END
+JudgeDisplay.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/143/trunk/src/dance/client/JudgeDisplay.as
+END
+HoldTailSprite.as
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/33/trunk/src/dance/client/HoldTailSprite.as
+END
+HoldEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/30/trunk/src/dance/client/HoldEvent.as
+END
+DanceWatcher.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/173/trunk/src/dance/client/DanceWatcher.as
+END
+NoteSprite.as
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/166/trunk/src/dance/client/NoteSprite.as
+END
+LevelDisplay.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/198/trunk/src/dance/client/LevelDisplay.as
+END
+BasicHUDPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/130/trunk/src/dance/client/BasicHUDPanel.as
+END
+LifeBar.as
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/143/trunk/src/dance/client/LifeBar.as
+END
+DanceView.as
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/178/trunk/src/dance/client/DanceView.as
+END
+NoteEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/src/dance/client/NoteEvent.as
+END
+RichComponent.as
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/45/trunk/src/dance/client/RichComponent.as
+END
+RecordList.as
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/143/trunk/src/dance/client/RecordList.as
+END
+NoteHitEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/23/trunk/src/dance/client/NoteHitEvent.as
+END
