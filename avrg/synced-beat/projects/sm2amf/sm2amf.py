@@ -147,14 +147,14 @@ if songId == None:
     ident = "pack://" + title
     soxOut = "/tmp/sm2amf.wav"
     soxIn = os.getcwd() + "/" + os.path.dirname(argv[1]) + "/" + music
-    mp3File = title + " - " + artist + " (Whirled Beat).mp3"
-    id3Title = title + " (Whirled Beat)"
+    mp3File = title + " - " + artist + " (Synced Beat).mp3"
+    id3Title = title + " (Synced Beat)"
 else:
     ident = "user://" + songId
     soxIn = musicInput
     soxOut = "/tmp/sm2amf_" + songId + ".wav"
     mp3File = songId + ".mp3"
-    id3Title = title + " (Whirled Beat #" + songId + ")"
+    id3Title = title + " (Synced Beat #" + songId + ")"
 
 def my_check_call (args):
     retcode = call(args)
