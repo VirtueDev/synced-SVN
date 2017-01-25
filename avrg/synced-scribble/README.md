@@ -9,5 +9,6 @@ Whenever uploading the game to Synced, type the server agent class as "scribble.
 
 # Wordsketch
 In order for wordsketch to work, you need to upload a Level Pack in Synced and the ident must be "wordlist"
-Then you have to list the wordlist.txt in order for it to work.
+Then you have to create a wordlist.txt file.
 Each new line in the wordlist.txt is a new word wordsketch may use.
+Upload that wordlist.txt file as your level pack.
