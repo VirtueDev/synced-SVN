@@ -7,8 +7,7 @@ The actionscript and php files are pre-compiled and ready to go.
 # Setting up the Website
 Download and install a Linux virtual machine (Ubuntu is best); we'll be using this virtual machine for the website. The reason for this is because the Beat Library website only works within Linux because that's how Aduros set the file directories.
 
-- Download XAMPP within your Linux virtual machine (sudo apt-get install xampp).
-- Download any PHP version from 5.13 to 5.45 within your Linux virtual machine () [make sure you're at least using PHP version 5.13 or lower or else the mySQL connect will not work because the mySQL connect function is deprecated]. 
+- Download and install XAMPP v1.8.1 within your Linux virtual machine (https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/1.8.1/)
 - Download soX within your Linux virtual machine (sudo apt-get install sox).
 - Download lame within your Linux virtual machine (sudo apt-get install lame).
 - Download python 2.4 within your Linux virtual machine (sudo apt-get install python2.4).
