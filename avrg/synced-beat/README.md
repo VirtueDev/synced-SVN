@@ -19,7 +19,7 @@ $sm2amf = new php_io_Process("/home/aduros/local/bin/python2.4", $params1); to y
 
 Now go into localhost/phpmyadmin and create a new database named "whirledbeat" then import the schema.sql file in your synced-beat/projects/websitefile to the database (this creates all of the neccesssary schemas for the Beat Library website)
 
-Make sure the field "bpm" has a default value in your whirledbeat database. In order to do this, for the bpm value, tinyint(4) should be tinyint(1)
+Make sure the field "bpm" has a default value in your whirledbeat database. In order to do this make the bpm default value 1.
 
 Type "localhost/www" in your web browser and your Beat Library page should show up.
 
